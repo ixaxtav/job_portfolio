@@ -3,8 +3,14 @@ import { Link } from "react-router-dom";
 import { Sidebar } from "../component/sidebar.jsx";
 import { AboutMe } from "../component/aboutme.jsx";
 import { Experience } from "../component/experience.jsx";
+import { Projects } from "../component/projects.jsx";
+import { IconButton } from "../component/iconButton.jsx";
+import { Barchart } from "../component/barchart.jsx";
+import { Education } from "../component/education.jsx";
+import ContactInfo from "../component/contacts.jsx";
 import Banner from "../component/banner.jsx";
-import rigoImage from "../../img/rigo-baby.jpg";
+import umiami from "../../../src/img/umiami.png";
+import fourGA from "../../../src/img/fourGA.jpg";
 import "../../styles/home.css";
 import slide_one from "../../../src/img/slide_one.jpg";
 
@@ -32,6 +38,35 @@ export class MainPage extends React.Component {
 						<AboutMe />
 						<Banner label="Experience" />
 						<Experience />
+						<Banner label="Projects" />
+						<Projects />
+						<Banner label="Skills" />
+						<Barchart />
+						<Banner label="Education" />
+						<div className="container">
+							<div className="row">
+								<div className="col-sm">
+									<Education
+										eduLogo={umiami}
+										eduLoc="UNIVERSITY OF MIAMI"
+										eduName="Coral Gables, FL"
+										eduCert="Bachelors of Science"
+										eduDate="Graduation: May 13, 2017"
+									/>
+								</div>
+								<div className="col-sm">
+									<Education
+										eduLogo={fourGA}
+										eduLoc="4Geeks Academy"
+										eduName="Downtown Miami, FL"
+										eduCert="Full Stack Developer Certificate"
+										eduDate="Graduation: October 23, 2018"
+									/>
+								</div>
+							</div>
+						</div>
+						<Banner label="Contact Me" />
+						<ContactInfo />
 					</div>{" "}
 				</div>{" "}
 			</div>

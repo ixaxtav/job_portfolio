@@ -6,7 +6,11 @@ class Banner extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1 className="bg-dark text-white pl-2">{this.props.label}</h1>
+				<h1
+					className="bg-dark text-white p-2"
+					style={{ fontSize: "48px" }}>
+					{this.props.label}
+				</h1>
 			</div>
 		);
 	}

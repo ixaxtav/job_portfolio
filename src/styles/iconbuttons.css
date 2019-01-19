@@ -1,0 +1,41 @@
+.button{
+display: inline-block; 
+position: relative;
+cursor: pointer;
+color: #383B44;
+height: 50px;
+width: 50px;
+margin-top: 1.25rem;
+
+}
+.circle{
+box-sizing: border-box;
+height: 100%;
+width: 100%;
+background: #383B44;
+border-radius: 70px;
+box-shadow: 0 0 0 2px #383B44;
+border: 25px solid white;
+transition: border 0.2s ease-in-out;
+}
+
+.icon{
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+text-transform: uppercase;
+font: 24px sans-serif;
+font-weight: bold;
+line-height: 50px;
+transition: color 0.2s ease-in-out;
+}
+
+.button:hover .circle{
+border: 0 solid white;
+box-shadow: 0 0 0 1px #ddd;
+}
+
+.button:hover .icon{
+color: #fff;  
+}

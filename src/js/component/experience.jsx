@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 
 export class Experience extends React.Component {
@@ -9,7 +8,7 @@ export class Experience extends React.Component {
 			<div
 				className="card justify-content-center mx-auto"
 				style={{ width: "60rem" }}>
-				<div className="card-header" style={{ fontSize: "24px" }}>
+				<div className="card-header" style={{ fontSize: "32px" }}>
 					Lorem ipsum
 				</div>
 				<div className="card-body">
