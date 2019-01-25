@@ -18,5 +18,6 @@ class Banner extends React.Component {
 export default Banner;
 
 Banner.propTypes = {
-	label: PropTypes.string
+	label: PropTypes.string,
+	section: PropTypes.string
 };

@@ -12,8 +12,7 @@ export class Sidebar extends React.Component {
 						<li
 							className="nav-item"
 							style={{ margin: "20px 0 10px 0" }}>
-							<a className="nav-link text-center" href="#">
-								<span data-feather="home" />
+							<a className="nav-link text-center" href="#about">
 								About{" "}
 							</a>
 						</li>
@@ -55,7 +54,9 @@ export class Sidebar extends React.Component {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link text-center" href="#">
+							<a
+								className="nav-link text-center"
+								href="https://docs.google.com/document/d/1xp2BtVTaIL1E7p_8CR3RhCOcqcm9BjzCED7lttaGbiY">
 								Resume
 							</a>
 						</li>

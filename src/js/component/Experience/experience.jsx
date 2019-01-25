@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../styles/home.css";
+
 import PropTypes from "prop-types";
 
 export class Experience extends React.Component {
@@ -9,11 +9,13 @@ export class Experience extends React.Component {
 			<div
 				className="card justify-content-center mx-auto"
 				style={{ width: "60rem" }}>
-				<div className="card-header" style={{ fontSize: "36px" }}>
+				<div className="card-header" style={{ fontSize: "26px" }}>
 					{this.props.titleJob}
 				</div>
 				<div className="card-body">
-					<blockquote className="blockquote mb-0">
+					<blockquote
+						className="blockquote mb-0"
+						style={{ fontSize: "18px" }}>
 						<ul>
 							<li>{this.props.bulletOne}</li>
 							<li>{this.props.bulletTwo}</li>

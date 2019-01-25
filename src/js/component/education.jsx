@@ -12,8 +12,18 @@ export class Education extends React.Component {
 				style={{
 					width: "400px"
 				}}>
-				<div className="card-header">
-					<img src={this.props.eduLogo} />
+				<div className="card-header text-center">
+					<div
+						className="text-center"
+						style={{
+							width: "300px",
+							height: "250px",
+							display: "flex",
+							alignItems: "center",
+							justifyContent: "center"
+						}}>
+						<img src={this.props.eduLogo} alt="centered image" />
+					</div>
 				</div>
 				<div className="card-body">
 					<h4 className="card-title">{this.props.eduName}</h4>

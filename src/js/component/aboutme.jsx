@@ -6,7 +6,7 @@ import "../../styles/home.css";
 export class AboutMe extends React.Component {
 	render() {
 		return (
-			<div className="container">
+			<div className="container" id="about">
 				<p
 					className="pl-2"
 					style={{ fontSize: "22px", lineHeight: "1.6" }}>

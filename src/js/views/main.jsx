@@ -37,9 +37,47 @@ export class MainPage extends React.Component {
 						<Banner label="About" />
 						<AboutMe />
 						<Banner label="Experience" />
-						<Experience />
+						<Experience
+							titleJob="Apple Specialist"
+							bulletOne="Demonstrated substantial knowledge in the services and products' benefits offered by Apple as well as some third party products to provide the customer with a complete solution. "
+							bulletTwo="Aiding on any apple related technical difficulties."
+							bulletThree="Educate the customer with any Apple related question"
+							monthJob="October"
+							yearJob="2018"
+							endMonthJob="January"
+							endYearJob="2019"
+						/>
+						<br />
+						<Experience
+							titleJob="Apple Specialist"
+							bulletOne="Demonstrated substantial knowledge in the services and products' benefits offered by Apple as well as some third party products to provide the customer with a complete solution. "
+							bulletTwo="Aiding on any apple related technical difficulties."
+							bulletThree="Educate the customer with any Apple related question"
+							monthJob="October"
+							yearJob="2018"
+							endMonthJob="January"
+							endYearJob="2019"
+						/>
+						<br />
+						<Experience
+							titleJob="Apple Specialist"
+							bulletOne="Demonstrated substantial knowledge in the services and products' benefits offered by Apple as well as some third party products to provide the customer with a complete solution. "
+							bulletTwo="Aiding on any apple related technical difficulties."
+							bulletThree="Educate the customer with any Apple related question"
+							monthJob="October"
+							yearJob="2018"
+							endMonthJob="January"
+							endYearJob="2019"
+						/>
 						<Banner label="Projects" />
-						<Projects />
+						<div className="row justify-content-center">
+							<div className="col-4">
+								<Projects />
+							</div>
+							<div className="col-4">
+								<Projects />
+							</div>
+						</div>
 						<Banner label="Skills" />
 						<Barchart />
 						<Banner label="Education" />
@@ -48,7 +86,7 @@ export class MainPage extends React.Component {
 								<div className="col-sm">
 									<Education
 										eduLogo={umiami}
-										eduLoc="UNIVERSITY OF MIAMI"
+										eduLoc="University of Miami"
 										eduName="Coral Gables, FL"
 										eduCert="Bachelors of Science"
 										eduDate="Graduation: May 13, 2017"
