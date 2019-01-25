@@ -15,6 +15,7 @@ import { MainPic } from "./component/mainPic.jsx";
 import { Footer } from "./component/footer.jsx";
 import AboutMe from "./component/AboutMe/aboutMe.jsx";
 import Experiences from "./component/Experience/experience_s.jsx";
+import Projects from "./component/Experience/projects.jsx";
 
 //create your first component
 export class Layout extends React.Component {
@@ -27,6 +28,7 @@ export class Layout extends React.Component {
 					<MainPic />
 					<AboutMe />
 					<Experiences />
+					<Projects />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
