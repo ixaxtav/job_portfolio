@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import rigoImage from "../../img/rigo-baby.jpg";
-import "../../styles/home.css";
-import { IconButton } from "../component/iconButton.jsx";
 
-export class Projects extends React.Component {
+import { IconButton } from "../iconButton.jsx";
+
+export default class Projects extends React.Component {
 	render() {
 		return (
 			<div className="card" style={{ width: "24rem" }}>

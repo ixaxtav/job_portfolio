@@ -23,30 +23,35 @@ const RightDrawer = props => {
 			open={props.open}
 			onClose={() => props.onClose(false)}>
 			<List component="nav">
-				<ListItem button onClick={() => scrollToElement("featured")}>
+				<ListItem button onClick={() => scrollToElement("About")}>
 					About
 				</ListItem>
 
-				<ListItem button onClick={() => scrollToElement("venuenfo")}>
+				<ListItem button onClick={() => scrollToElement("Experiences")}>
 					Experiences
 				</ListItem>
 
-				<ListItem button onClick={() => scrollToElement("highlights")}>
+				<ListItem button onClick={() => scrollToElement("Projects")}>
 					Projects
 				</ListItem>
 
-				<ListItem button onClick={() => scrollToElement("pricing")}>
+				<ListItem button onClick={() => scrollToElement("Skills")}>
 					Skills
 				</ListItem>
 
-				<ListItem button onClick={() => scrollToElement("location")}>
+				<ListItem button onClick={() => scrollToElement("Education")}>
 					Education
 				</ListItem>
-				<ListItem button onClick={() => scrollToElement("location")}>
+				<ListItem button onClick={() => scrollToElement("Contact")}>
 					Contact
 				</ListItem>
-				<ListItem button onClick={() => scrollToElement("location")}>
-					Resume
+				<ListItem button>
+					<a
+						rel="noopener noreferrer"
+						href="https://docs.google.com/document/d/1xp2BtVTaIL1E7p_8CR3RhCOcqcm9BjzCED7lttaGbiY/edit"
+						target="_blank">
+						Resume
+					</a>
 				</ListItem>
 			</List>
 		</Drawer>

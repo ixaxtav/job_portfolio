@@ -1,11 +1,14 @@
 import React from "react";
 import { Experience } from "./experience.jsx";
+import Fade from "react-reveal/Fade";
 
 export default class Experiences extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid highlight_wrapper mt-5 pt-5">
-				<h2>Experiences</h2>
+				<Fade>
+					<h2>Experiences</h2>
+				</Fade>
 				<Experience
 					titleJob="Apple Specialist"
 					bulletOne="Demonstrated substantial knowledge in the services and products' benefits offered by Apple as well as some third party products to provide the customer with a complete solution. "
