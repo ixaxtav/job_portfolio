@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import PropTypes from "prop-types";
 import { IconButton } from "../iconButton.jsx";
 
 export default class Projects extends React.Component {
@@ -9,21 +9,22 @@ export default class Projects extends React.Component {
 			<div className="card" style={{ width: "24rem" }}>
 				<img
 					className="card-img-top"
-					src="http://placekitten.com/220/140"
+					src={this.props.projectImage}
 					alt="Card image cap"
 				/>
 				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<div>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Mauris id.
-					</div>
+					<h5 className="card-title">{this.props.projectTitle}</h5>
+					<div>{this.props.projectContent}</div>
 					<div className="row justify-content-end mr-2">
 						<div className="col-2">
-							<IconButton icon="fab fa-github" />
+							<a href={this.props.projectGit}>
+								<IconButton icon="fab fa-github" />
+							</a>
 						</div>
 						<div className="col-2">
-							<IconButton icon="fas fa-external-link-alt" />
+							<a href={this.props.projectWeb}>
+								<IconButton icon="fas fa-external-link-alt" />
+							</a>
 						</div>
 					</div>
 				</div>
@@ -31,3 +32,10 @@ export default class Projects extends React.Component {
 		);
 	}
 }
+Projects.propTypes = {
+	projectImage: PropTypes.string,
+	projectTitle: PropTypes.string,
+	projectContent: PropTypes.string,
+	projectGit: PropTypes.string,
+	projectWeb: PropTypes.string
+};

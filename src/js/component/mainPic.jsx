@@ -1,11 +1,12 @@
 import React from "react";
+import portfolioJumbo from "./portfolioJumbo.jpeg";
 
 export const MainPic = () => {
 	return (
 		<div
 			className="carrousel_image"
 			style={{
-				background: "red",
+				backgroundImage: `url(${portfolioJumbo})`,
 				height: `${window.innerHeight}px`
 			}}
 		/>

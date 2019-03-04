@@ -11,7 +11,7 @@ export default class Barchart extends React.Component {
 				<div className="container-skills highlight_description">
 					<div className="html">
 						<p className="bar-title">
-							HTML / HTML5 & CSS
+							React Js
 							<span className="percent align-right">90%</span>
 						</p>
 						<div className="bar">
@@ -29,7 +29,7 @@ export default class Barchart extends React.Component {
 					</div>
 					<div className="jquery">
 						<p className="bar-title">
-							JQuery
+							Python
 							<span className="percent align-right">70%</span>
 						</p>
 						<div className="bar">
@@ -38,7 +38,7 @@ export default class Barchart extends React.Component {
 					</div>
 					<div className="responsive-design">
 						<p className="bar-title">
-							Responsive Design
+							Responsive Design (Boostrap 4.0)
 							<span className="percent align-right">90%</span>
 						</p>
 						<div className="bar">
@@ -47,7 +47,7 @@ export default class Barchart extends React.Component {
 					</div>
 					<div className="photoshop">
 						<p className="bar-title">
-							Photoshop
+							WordPress
 							<span className="percent align-right">20%</span>
 						</p>
 						<div className="bar">
