@@ -29,7 +29,7 @@ const ListOfProjects = () => {
 						<Projects
 							projectImage={crippyLogo}
 							projectTitle="Crippy"
-							projectContent="Crippy is an app where you can select your coin and check the value of it"
+							projectContent="Crippy is an app built to visualize cryptocurrency coins and compare their value to other coin."
 							projectGit="https://www.google.com/"
 							projectWeb="https://www.facebook.com/"
 						/>
