@@ -6,7 +6,7 @@ import { IconButton } from "../iconButton.jsx";
 export default class Projects extends React.Component {
 	render() {
 		return (
-			<div className="card" style={{ width: "24rem" }}>
+			<div className="card mx-auto" style={{ width: "24rem" }}>
 				<img
 					className="card-img-top"
 					src={this.props.projectImage}

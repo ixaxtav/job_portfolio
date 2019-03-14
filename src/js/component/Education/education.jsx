@@ -9,7 +9,7 @@ export default class Education extends React.Component {
 	render() {
 		return (
 			<div
-				className="card text-center"
+				className="card text-center mx-auto"
 				style={{
 					width: "400px"
 				}}>
