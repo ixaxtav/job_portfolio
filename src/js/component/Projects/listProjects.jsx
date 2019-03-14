@@ -6,14 +6,14 @@ import crippyLogo from "./crippylogo.jpg";
 
 const ListOfProjects = () => {
 	return (
-		<div className="highlight_wrapper mt-5 pt-5">
+		<div className="highlight_wrapper  center_wrapper mt-5 p-3">
 			<h2> Projects </h2>
 
 			<div
-				className="row justify-content-center pt-2
+				className="row justify-content-center p-2
 		">
 				<Zoom duration={500}>
-					<div className="col-3">
+					<div className="col">
 						<Projects
 							projectImage={thepokersocietylogo}
 							projectTitle="The Poker Society"
@@ -25,7 +25,7 @@ const ListOfProjects = () => {
 				</Zoom>
 
 				<Zoom duration={500} delay={500}>
-					<div className="col-3">
+					<div className="col">
 						<Projects
 							projectImage={crippyLogo}
 							projectTitle="Crippy"

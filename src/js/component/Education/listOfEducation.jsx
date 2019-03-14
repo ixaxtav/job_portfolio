@@ -6,13 +6,13 @@ import Fade from "react-reveal/Fade";
 const ListOfEducation = () => {
 	return (
 		<Fade>
-			<div className="highlight_wrapper mt-5 pt-5">
+			<div className="highlight_wrapper  center_wrapper mt-5 p-3">
 				<div className="center_wrapper">
 					<h2>Education </h2>
 					<div className="highlight_description">
 						{" "}
 						<div className="row">
-							<div className="col-sm">
+							<div className="col">
 								<Education
 									eduLogo={umiami}
 									eduLoc="University of Miami"
@@ -21,7 +21,7 @@ const ListOfEducation = () => {
 									eduDate="Graduation: May 13, 2017"
 								/>
 							</div>
-							<div className="col-sm">
+							<div className="col">
 								<Education
 									eduLogo={fourGA}
 									eduLoc="4Geeks Academy"

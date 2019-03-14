@@ -3,12 +3,16 @@ import portfolioJumbo from "./portfolioJumbo.jpeg";
 
 export const MainPic = () => {
 	return (
-		<div
-			className="carrousel_image"
-			style={{
-				backgroundImage: `url(${portfolioJumbo})`,
-				height: `${window.innerHeight}px`
-			}}
-		/>
+		<div>
+			<div
+				className="carrousel_image d-none d-sm-block"
+				style={{
+					backgroundImage: `url(${portfolioJumbo})`,
+					height: `${window.innerHeight}px`
+				}}
+			/>
+
+			<div className="carrousel_image d-block d-sm-none" />
+		</div>
 	);
 };

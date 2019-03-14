@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 export default class Experiences extends React.Component {
 	render() {
 		return (
-			<div className="container-fluid highlight_wrapper mt-5 pt-5">
+			<div className="highlight_wrapper center_wrapper mt-5 p-3">
 				<Fade>
 					<h2>Experiences</h2>
 				</Fade>

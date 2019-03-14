@@ -3,7 +3,7 @@ import Contact from "./contacts.jsx";
 
 const AllContacts = () => {
 	return (
-		<div className="highlight_wrapper mt-5 pt-5">
+		<div className="highlight_wrapper  center_wrapper  mt-5 p-3">
 			<Contact />
 		</div>
 	);

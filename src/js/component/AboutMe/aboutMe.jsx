@@ -4,7 +4,7 @@ import LowerDescription from "./lowerdescription.jsx";
 
 const AboutMe = () => {
 	return (
-		<div className="highlight_wrapper mt-5 pt-5">
+		<div className="highlight_wrapper mt-5 p-3">
 			<Description />
 		</div>
 	);

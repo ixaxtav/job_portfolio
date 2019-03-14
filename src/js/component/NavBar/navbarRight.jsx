@@ -50,12 +50,13 @@ export class NavbarRight extends React.Component {
 					padding: "10px 0px"
 				}}>
 				<Toolbar>
-					<div className="header_logo">
+					<div className="header_logo d-none d-sm-block">
 						<div className="header_logo_name">Ixax Tavarez</div>
 						<div className="header_logo_title">
 							Full Stack Developer
 						</div>
 					</div>
+
 					<IconButton
 						arial-label="Menu"
 						color="inherit"
