@@ -2,3 +2,5 @@
 
 
 https://ixaxtav.github.io/job_portfolio/
+
+it includes my resume. 
